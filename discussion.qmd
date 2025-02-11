@@ -3,4 +3,4 @@ format: html
 editor: visual
 ---
 
-Check out our [online discussion forum](https://github.com/teunbrand/ggplot-extension-club/discussions) where you can contribute to existing threads or bring up new topics. Hot topics include practical questions on API for diverging bar charts and annotating a single facet as well as more theoretical terrain about ggproto inheritance.
+Check out our [online discussion forum](https://github.com/ggplot2-extenders/ggplot-extension-club/discussions) where you can contribute to existing threads or bring up new topics. Hot topics include practical questions on API for diverging bar charts and annotating a single facet as well as more theoretical terrain about ggproto inheritance.

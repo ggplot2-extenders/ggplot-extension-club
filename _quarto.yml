@@ -5,7 +5,7 @@ project:
 website:
   title: "ggplot2 extenders 🫖"
   reader-mode: true
-  repo-url: https://github.com/teunbrand/ggplot-extension-club
+  repo-url: https://github.com/ggplot2-extenders/ggplot-extension-club
   repo-actions: [edit, issue]
   navbar:
     left:
@@ -20,7 +20,7 @@ website:
 
     tools:
       - icon: github
-        href: https://github.com/teunbrand/ggplot-extension-club
+        href: https://github.com/ggplot2-extenders/ggplot-extension-club
   page-footer:
     right: "Built with [Quarto](https://quarto.org/)"
     left: "&copy; Copyright 2023, Gina Reynolds, Teun van den Brand"
