@@ -1,7 +1,17 @@
 date,presenter,package,special topic
+maybe,Marc Bosch-Matas,[{ggspark}](https://github.com/marcboschmatas/ggspark),NA
+maybe,Gavin Simpson,[{gratia}](https://github.com/gavinsimpson/gratia),NA
+maybe,Brian Danielak,[{ggranova}](https://github.com/briandk/granovaGG),NA
+maybe,Heike Hofmann,[{ggparallel}](https://heike.github.io/ggparallel/),NA
+TBD,Grant McDermott,[{tinyplot}](https://grantmcdermott.com/tinyplot/),NA
+TBD,Pedro Aphalo,ggpmisc,NA
+TBD,Casper Van Lissa,{tidySEM},NA
+TBD,Jorge Roa,{ggpop},NA
+TBD,Matthew Kay,{ggdist} or {ggblend},NA
 Tentative June,David Gohels,[{ggiraph}](https://davidgohel.github.io/ggiraph/),NA
 Tentative May,Cynthia Huang,NA,Design principles for plot helper functions
-Tentative April,Hassan Kibirige,NA,[plotnine](https://plotnine.org/): A Grammar of Graphics for Python
+2025-05-07,Hassan Kibirige,NA,[plotnine](https://plotnine.org/): A Grammar of Graphics for Python
+2025-04-09,Jan Broder Engler,[tidyplots](https://github.com/jbengler/tidyplots/),Wrapper functions and publication readiness
 2025-03-05,Winston Chang,NA,[The R Graphics Cookbook](https://r-graphics.org/) & ggproto
 2025-02-12,Mitchell O'Hara-Wild,{ggtime} proposal,NA
 2025-01-21,Teun van den Brand,[{legendry}](https://github.com/teunbrand/legendry),NA

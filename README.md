@@ -16,14 +16,41 @@ in touch!
 
 Meetings:
 
+- maybe, Marc Bosch-Matas,
+  [{ggspark}](https://github.com/marcboschmatas/ggspark)
+
+- maybe, Gavin Simpson,
+  [{gratia}](https://github.com/gavinsimpson/gratia)
+
+- maybe, Brian Danielak,
+  [{ggranova}](https://github.com/briandk/granovaGG)
+
+- maybe, Heike Hofmann,
+  [{ggparallel}](https://heike.github.io/ggparallel/)
+
+- TBD, Grant McDermott,
+  [{tinyplot}](https://grantmcdermott.com/tinyplot/)
+
+- TBD, Pedro Aphalo, ggpmisc
+
+- TBD, Casper Van Lissa, {tidySEM}
+
+- TBD, Jorge Roa, {ggpop}
+
+- TBD, Matthew Kay, {ggdist} or {ggblend}
+
 - Tentative June, David Gohels,
   [{ggiraph}](https://davidgohel.github.io/ggiraph/)
 
 - Tentative May, Cynthia Huang, Design principles for plot helper
   functions
 
-- Tentative April, Hassan Kibirige, [plotnine](https://plotnine.org/): A
+- 2025-05-07, Hassan Kibirige, [plotnine](https://plotnine.org/): A
   Grammar of Graphics for Python
+
+- 2025-04-09, Jan Broder Engler,
+  [tidyplots](https://github.com/jbengler/tidyplots/), Wrapper functions
+  and publication readiness
 
 - 2025-03-05, Winston Chang, [The R Graphics
   Cookbook](https://r-graphics.org/) & ggproto
