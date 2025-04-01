@@ -21,7 +21,7 @@ library(tidyverse)
   # cat()
 
 read.csv("meetings.csv") %>% 
-  filter(!stringr::str_detect(date, "Tentative")) %>% 
+  filter(!stringr::str_detect(date, "Tentative|maybe|TBD")) %>% 
   gt::gt() %>%
   gt::fmt_date(columns = c(date), date_style = "wd_m_day_year") %>% 
   gt::sub_missing(missing_text = "---") %>% 
