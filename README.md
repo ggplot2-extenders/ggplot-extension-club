@@ -37,13 +37,15 @@ Meetings:
 
 - TBD, Jorge Roa, {ggpop}
 
-- TBD, Matthew Kay, {ggdist} or {ggblend}
+- Tentative May, Cynthia Huang, Design principles for plot helper
+  functions
 
 - Tentative June, David Gohels,
   [{ggiraph}](https://davidgohel.github.io/ggiraph/)
 
-- Tentative May, Cynthia Huang, Design principles for plot helper
-  functions
+- 2025-06-25, Matthew Kay, {ggdist} or {ggblend}
+
+- 2025-06-12, Thomas Lin Pedersen, marquee
 
 - 2025-05-07, Hassan Kibirige, [plotnine](https://plotnine.org/): A
   Grammar of Graphics for Python
@@ -55,7 +57,8 @@ Meetings:
 - 2025-03-05, Winston Chang, [The R Graphics
   Cookbook](https://r-graphics.org/) & ggproto
 
-- 2025-02-12, Mitchell O’Hara-Wild, {ggtime} proposal
+- 2025-02-12, Mitchell O’Hara-Wild, [{ggtime}
+  proposal](https://github.com/mitchelloharawild/talk-ggextenders-ggtime)
 
 - 2025-01-21, Teun van den Brand,
   [{legendry}](https://github.com/teunbrand/legendry)
@@ -109,7 +112,7 @@ Meetings:
 - 2023-04-15, Gina Reynolds,
   [{ggcirclepack}](https://github.com/EvaMaeRey/ggcirclepack)
 
-- 2022-01-28, Claus Wilke, [‘Fundamentals of Data
+- 2023-01-28, Claus Wilke, [‘Fundamentals of Data
   Visualization’](https://github.com/clauswilke/dataviz) book project
 
 - 2022-07-16, June Choe,
