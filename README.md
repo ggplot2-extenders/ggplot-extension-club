@@ -47,8 +47,9 @@ Meetings:
 
 - 2025-06-12, Thomas Lin Pedersen, marquee
 
-- 2025-05-07, Hassan Kibirige, [plotnine](https://plotnine.org/): A
-  Grammar of Graphics for Python
+- 2025-05-07, Hassan Kibirige, “[plotnine](https://plotnine.org/): A
+  Grammar of Graphics for Python,
+  [(recording)](https://www.youtube.com/watch?v=tVeG7z2IgeA)”
 
 - 2025-04-09, Jan Broder Engler,
   [tidyplots](https://github.com/jbengler/tidyplots/), Wrapper functions
@@ -56,6 +57,7 @@ Meetings:
 
 - 2025-03-05, Winston Chang, [The R Graphics
   Cookbook](https://r-graphics.org/) & ggproto
+  [(recording)](https://www.youtube.com/watch?v=wyLNiPT6aWA)
 
 - 2025-02-12, Mitchell O’Hara-Wild, [{ggtime}
   proposal](https://github.com/mitchelloharawild/talk-ggextenders-ggtime)
