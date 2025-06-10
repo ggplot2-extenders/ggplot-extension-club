@@ -11,6 +11,29 @@ Our main activities are [meetings](./meetings.html) and [discussions](./discussi
 
 Interested in joining us? Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch!
 
+-   *It is fantastic to hear developers speaking directly to other developers.* - W. Joel Schneider, author of {arrowheadr}
+
+-   *It's been great getting more involved in the extensions community, thanks for creating a place for us all to congregate!* William Gearty - {deeptime}
+
+-   *Participating has been one of the highlights of my year.* - Joyce Robbins, ggplot2 enthusiast and instructor 
+
+
+-   *It's extremely gratifying to be able to connect with and learn from people who share this still somewhat niche interest in grammatical / algebraic statistical software design.* - Cory Brunson, Author of {ggalluvial} and {ordr}
+
+
+
+
+-   *I had a lot of fun at last week's meeting!* – Matthew Kay, author of {ggblend}, {ggdist}
+
+
+
+
+-   *Great effort \[is put into\] organising all the meetings and inviting people.* - Teun van den Brand, author of {ggh4x}, {legendry}, ggplot2 maintainer
+
+
+
+
+
 Note that the extension ecosystem is extensive and other initiatives exist to support extenders, check out some [other resources](./additional-resources.html).
 
 ```{r, echo = F, warning=F, fig.height=3.5}

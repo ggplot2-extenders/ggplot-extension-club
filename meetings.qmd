@@ -3,7 +3,7 @@ format: html
 editor: visual
 ---
 
-ggplot2 extenders meets in virtually every few months. Presenters discuss motivation, origins, and challenges of their extension projects!
+ggplot2 extenders meets in virtually to hear extenders talk through motivation, origins, and challenges of their extension projects!
 
 Meetings:
 
