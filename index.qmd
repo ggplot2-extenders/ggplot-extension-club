@@ -7,16 +7,23 @@ Welcome to ggplot2 extenders/ggplot2 extension club. This forum exists to facili
 
 Our main activities are [meetings](./meetings.html) and [discussions](./discussion.html).
 
-![](ggextenders-hex_files/figure-html/unnamed-chunk-1-1.png){width="20%"}
+<div class="wrap-image-left">
+  <img src="ggextenders-hex_files/figure-html/unnamed-chunk-1-1.png" alt="extenders hex" />
+  <p>
+    Interested in joining us? Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch!
+  </p>
+</div>
 
-Interested in joining us? Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch!
+<!-- ![](){width="20%"} -->
+
+<!-- Interested in joining us? Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch! -->
 
 ```{css, echo = F}
 .quote-left {
   width: 80%;
   text-align: left;
   margin: 1em 0;
-  padding-left: 2em;
+  padding-left: 1em;
   border-left: 4px solid #ccc;
   background-color: #f0f8f4; /* Light blue tint */
   font-style: italic;
@@ -28,14 +35,47 @@ Interested in joining us? Please leave your contact info [here](https://docs.goo
   width: 80%;
   text-align: right;
   margin: 1em 0 1em 20%;
-  padding-right: 2em;
+  padding-right: 1em;
   border-right: 4px solid #ccc;
   background-color: #f0f8ff; /* Light blue tint */
   font-style: italic;
   border-radius: 12px;
 
 }
+
+.wrap-image-left img {
+  float: left;
+  width: 20%;
+  margin: 0 0em 0em 0;
+  border-radius: 12px;
+}
+
 ```
+
+Note that the extension ecosystem is extensive and other initiatives exist to support extenders, check out some [other resources](./additional-resources.html).
+
+```{r, echo = F, warning=F, fig.height=3.5}
+# download.file("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ggplot2_hex_logo.png/800px-Ggplot2_hex_logo.png", destfile = "800px-Ggplot2_hex_logo.png")  
+  
+
+library(ggstamp)
+library(ggplot2)
+ggcanvas() + 
+  stamp_polygon(x0y0 = pos_honeycomb(n = 50, ncol = 10), 
+                fill = "whitesmoke") + 
+  ggstamp::stamp_wash(fill = "whitesmoke") +
+  ggstamp::theme_void_fill("whitesmoke") + 
+  ggstamp::stamp_png(png = "800px-Ggplot2_hex_logo.png", x0 = 6,
+                     y0 = -3, width = 4
+                    )
+
+
+```
+
+---
+
+### *What people are saying*
+
 
 ::: {.quote-left}
 *It is fantastic to hear developers speaking directly to other developers.* - W. Joel Schneider, author of {arrowheadr}
@@ -73,24 +113,6 @@ Interested in joining us? Please leave your contact info [here](https://docs.goo
 
 
 
-Note that the extension ecosystem is extensive and other initiatives exist to support extenders, check out some [other resources](./additional-resources.html).
 
-```{r, echo = F, warning=F, fig.height=3.5}
-# download.file("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ggplot2_hex_logo.png/800px-Ggplot2_hex_logo.png", destfile = "800px-Ggplot2_hex_logo.png")  
-  
-
-library(ggstamp)
-library(ggplot2)
-ggcanvas() + 
-  stamp_polygon(x0y0 = pos_honeycomb(n = 50, ncol = 10), 
-                fill = "whitesmoke") + 
-  ggstamp::stamp_wash(fill = "whitesmoke") +
-  ggstamp::theme_void_fill("whitesmoke") + 
-  ggstamp::stamp_png(png = "800px-Ggplot2_hex_logo.png", x0 = 6,
-                     y0 = -3, width = 4
-                    )
-
-
-```
 
 ------------------------------------------------------------------------
