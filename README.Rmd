@@ -36,8 +36,8 @@ tibble::tribble(~ date, ~ presenter, ~ package, ~`special topic`, #~link,
 "TBD", "Jorge Roa", "{ggpop}", NA,
                 "Tentative May", "Cynthia Huang", NA, "Design principles for plot helper functions",
 "Tentative June", "David Gohels", "[{ggiraph}](https://davidgohel.github.io/ggiraph/)", NA,
-"2025-06-25", "Matthew Kay", "{ggdist} or {ggblend}", NA, # 2pm Chicago
-"2025-06-12", "Thomas Lin Pedersen", "marquee", NA, #9pm CEST - Thursday
+"2025-06-25", "Matthew Kay", "{ggdist} [(recording)](https://youtu.be/n5s2S2yQHc0?si=A1WXzFV5TTRfY680)", NA, # 2pm Chicago
+"2025-06-12", "Thomas Lin Pedersen", "{marquee} [(recording)](https://www.youtube.com/watch?v=tuluvJLUGeo)", NA, #9pm CEST - Thursday
                 "2025-05-07", "Hassan Kibirige", NA, "[plotnine](https://plotnine.org/): A Grammar of Graphics for Python, [(recording)](https://www.youtube.com/watch?v=tVeG7z2IgeA)",
                 "2025-04-09", "Jan Broder Engler", "[tidyplots](https://github.com/jbengler/tidyplots/)", "Wrapper functions and publication readiness",
                 "2025-03-05", "Winston Chang", NA, "[The R Graphics Cookbook](https://r-graphics.org/) & ggproto [(recording)](https://www.youtube.com/watch?v=wyLNiPT6aWA)",

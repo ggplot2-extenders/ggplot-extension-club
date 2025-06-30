@@ -43,9 +43,11 @@ Meetings:
 - Tentative June, David Gohels,
   [{ggiraph}](https://davidgohel.github.io/ggiraph/)
 
-- 2025-06-25, Matthew Kay, {ggdist} or {ggblend}
+- 2025-06-25, Matthew Kay, {ggdist}
+  [(recording)](https://youtu.be/n5s2S2yQHc0?si=A1WXzFV5TTRfY680)
 
-- 2025-06-12, Thomas Lin Pedersen, marquee
+- 2025-06-12, Thomas Lin Pedersen, {marquee}
+  [(recording)](https://www.youtube.com/watch?v=tuluvJLUGeo)
 
 - 2025-05-07, Hassan Kibirige, “[plotnine](https://plotnine.org/): A
   Grammar of Graphics for Python,
