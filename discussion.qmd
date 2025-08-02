@@ -4,3 +4,160 @@ editor: visual
 ---
 
 Check out our [online discussion forum](https://github.com/ggplot2-extenders/ggplot-extension-club/discussions) where you can contribute to existing threads or bring up new topics. Hot topics include practical questions on API for diverging bar charts and annotating a single facet as well as more theoretical terrain about ggproto inheritance.
+
+```{r, echo = F}
+discussions <- 'tag, topic, who_when_where, participants, num_exchanges,
+General, "chat your plot into existence...", EvaMaeRey started 2 days ago in General, @EvaMaeRey,  0 , 
+Ideas, "\'ggram\' with patchwork", EvaMaeRey started 2 weeks ago in Ideas, @EvaMaeRey @willgearty @teunbrand,  14 , 
+Ideas, "ggplot2: Labeling noteworthy points in scatterplots (geom_noteworthy)", friendly started last week in Ideas, @friendly, @aphalo, @EvaMaeRey,  15 , 
+Q&A, "What extension thing is not clear from the docs?", teunbrand asked 2 weeks ago in Q&A · Unanswered, @teunbrand @willgearty @EvaMaeRey,  33 , 
+Show and tell, "ggplot layer explorer shiny app", yjunechoe started last week in Show and tell, @yjunechoe @teunbrand,  2 , 
+Q&A, "quarto question for intro to layers tutorial: using same callout-notes, -tips, -warnings, across a project.", EvaMaeRey asked last week in Q&A · Unanswered, @EvaMaeRey,  0 , 
+Q&A, "normalize + aes()?", EvaMaeRey asked on Jun 25 2024 in Q&A · Unanswered, @EvaMaeRey @clauswilke @teunbrand,  12 , 
+General, "tidyplots talk slides", jbengler started 2 weeks ago in General, @jbengler @EvaMaeRey @teunbrand,  10 , 
+General, "layer primer - from user to potential extender", EvaMaeRey started 3 weeks ago in General, @EvaMaeRey @friendly @teunbrand,  4 , 
+General, "ggSprings package: Help wanted", friendly started on Mar 12 in General, @friendly @corybrunson @EvaMaeRey,  30 , 
+Ideas, "A CRAN Task View for \'Grammar of Graphics\'?, pepijn-devries started on Mar 10 in Ideas, @pepijn-devries @dicook @arcresu,  67 , 
+General, "incremental adjustment demonstrations", EvaMaeRey started on Jan 6 in General, @EvaMaeRey @mjskay @corybrunson,  66 , 
+Q&A, "What does \'publication ready\' mean?", teunbrand asked on Nov 27 2024 in Q&A · Unanswered, @teunbrand @mjskay @EvaMaeRey,  26 , 
+Q&A, "alternative to reinventing Coord helper functions", corybrunson asked on Mar 17 in Q&A · Unanswered, @corybrunson @teunbrand,  3 , 
+General, "layer_* prefixing", EvaMaeRey started on Feb 12 in General, @EvaMaeRey,  2 , 
+General, "legendry presentation Tuesday, gallery extenders invite", EvaMaeRey started on Jan 17 in General, @EvaMaeRey @friendly @daattali,  15 , 
+General, "ggproto and R Graphics Cookbook talk!", EvaMaeRey started on Mar 10 in General, @EvaMaeRey @teunbrand,  2 , 
+General, "likert and other diverging bar plots", EvaMaeRey started on Aug 13 2024 in General, @EvaMaeRey @larmarange @mjskay,  100 , 
+General, "Vector algebra of graphics?", mjskay started on Dec 4 2024 in General, @mjskay @EvaMaeRey @teunbrand,  37 , 
+Q&A, "in-plot data manipulation: reversible filter (masking?)", EvaMaeRey asked on Jan 15 in Q&A · Unanswered, @EvaMaeRey,  1 , 
+General, "ggplot2 plotting mindshare theories", EvaMaeRey started on Sep 27 2024 in General, @EvaMaeRey @teunbrand @yjunechoe,  14 , 
+General, "Designing ggtime: a grammar of temporal graphics", mitchelloharawild started on Feb 12 in General, @mitchelloharawild @mjskay @EvaMaeRey,  22 ,  , 
+Show and tell, "ggcirclepack, now with counting - but not 100%", EvaMaeRey started on May 23 2024 in Show and tell, @EvaMaeRey @wilkox @teunbrand,  35 , 
+General, "Generalizing plots/guides and codifying multi-axis/multi-scale relationships", mjskay started on Jan 21 in General, @mjskay @heike @willgearty,  24 ,  , 
+Ideas, "group->compute->pivot rearrangement for table definitions inspired by ggplot2 experience!", EvaMaeRey started on Jun 10 2024 in Ideas, @EvaMaeRey @teunbrand,  11 ,  ,  
+General, "distinct colors for neighboring points?", EvaMaeRey started on Nov 20 2024 in General, @EvaMaeRey @mjskay @teunbrand,  16 , 
+General, "Reassembling misc packages", teunbrand started on Feb 6 in General, @teunbrand @EvaMaeRey @yjunechoe,  11 , 
+General, "after_stat() history rabbit hole", yjunechoe started on Feb 6 in General, @yjunechoe @mjskay @teunbrand,  16 , 
+General, "aes(color = I(chalkcolor)) layer redefaulting approach", EvaMaeRey started on Jun 12 2024 in General, @EvaMaeRey @corybrunson @teunbrand,  47 , 
+General, "part data manipulation, part plot starter: ggmultivar() pivot and facet example w/ chinstrap penguin", EvaMaeRey started on Jun 5 2024 in General, @EvaMaeRey @corybrunson @teunbrand,  31 , 
+General, "Advent of code 2. reusing incomplete layers.", EvaMaeRey started on Jan 7 in General, @EvaMaeRey @mjskay @teunbrand,  17 , 
+Q&A, "showtext Font Support & Emoji Rendering", rsh52 asked on Nov 13 2024 in Q&A · Answered, @rsh52 @teunbrand @yjunechoe,  11 , 
+General, "layer conceptual identity", EvaMaeRey started on Nov 5 2024 in General, @EvaMaeRey @mjskay @teunbrand,  40 , 
+Show and tell, "Budget extensions", teunbrand started on Dec 16 2024 in Show and tell, @teunbrand @EvaMaeRey @yjunechoe,  14 , 
+General, "geom_marker ggswim spin off?", EvaMaeRey started on Dec 18 2024 in General, @EvaMaeRey @mitchelloharawild @rsh52,  9 , 
+Q&A, "%+% global data switch", EvaMaeRey asked on Jul 10 2024 in Q&A · Unanswered, @EvaMaeRey @teunbrand,  15 , 
+General, "ggplot2 extension advent of code: set_theme_last_plot()", EvaMaeRey started on Dec 9 2024 in General, @EvaMaeRey @teunbrand @yjunechoe,  10 , 
+Q&A, "Can i recover the aesthetic mapping from within a compute_*() step?", corybrunson asked on Dec 14 2024 in Q&A · Answered, @corybrunson @EvaMaeRey @teunbrand,  12 , 
+General, "Breakout: maintenance of unofficial extension points", teunbrand started on Dec 15 2024 in General, @teunbrand @yjunechoe,  3 , 
+General, "ggplot2 extensions session at JSM 2025?", jtr13 started on Nov 22 2024 in General, @jtr13 @tdhock @mjskay,  49 , 
+General, "Ermahgerd, Berks!", teunbrand started on Nov 15 2024 in General, @teunbrand @corybrunson @EvaMaeRey,  22 , 
+General, "light-weight curriculum-targeted extension", EvaMaeRey started on Sep 9 2024 in General, @EvaMaeRey @jtr13 @teunbrand,  55 , 
+Show and tell, "everyday ggplot2 extension at ASA-COWY", EvaMaeRey started on Nov 4 2024 in Show and tell, @EvaMaeRey @teunbrand,  9 , 
+Show and tell, "ggsomewhere template + sf2stat for writing sf layers from flat files.", EvaMaeRey started on Apr 19 2024 in Show and tell, @EvaMaeRey,  5 , 
+General, "third-way extension: packcircle example when a ggplot2 dependancy or writing a spin off package doesnt feel right", EvaMaeRey started on Oct 30 2024 in General, @EvaMaeRey @mbedward,  6 , 
+Q&A, "compute_panel full_join fails, but not inner_join nor anti_join", EvaMaeRey asked on Nov 15 2024 in Q&A · Unanswered, @EvaMaeRey,  0 , 
+Ideas, "Package Idea: Outlined Geoms", teunbrand started on Sep 22 2022 in Ideas, @teunbrand @EvaMaeRey @yjunechoe,  8 , 
+Ideas, "2nd default aes aes_* functions?", EvaMaeRey started on Nov 6 2024 in Ideas, @EvaMaeRey @larmarange @teunbrand,  5 , 
+General, "Recording from meeting with Hadley, resource", yjunechoe started on Oct 24 2024 in General, @yjunechoe @EvaMaeRey @teunbrand,  8 , 
+Q&A, "Combination required aes", EvaMaeRey asked on Nov 1 2024 in Q&A · Unanswered, @EvaMaeRey @teunbrand,  5 , 
+Q&A, "options() in an extension package", EvaMaeRey asked on Oct 14 2024 in Q&A · Unanswered, @EvaMaeRey @teunbrand @yjunechoe,  15 , 
+Q&A, "getting started with ggproto extension workshop?", EvaMaeRey asked on Oct 31 2024 in Q&A · Unanswered, @EvaMaeRey @teunbrand,  4 , 
+Q&A, "ggplot2 extension packaging best practices workshop requirements", EvaMaeRey asked on Oct 29 2024 in Q&A · Unanswered, @EvaMaeRey @cynthiahqy @rsh52,  20 , 
+General, "geom_wax, geom_wick and geom_candlestick for stock watching", EvaMaeRey started on Oct 24 2024 in General, @EvaMaeRey @teunbrand,  5 , 
+General, "dedicated layers (fixed Stat + Geom)", EvaMaeRey started on Sep 27 2024 in General, @EvaMaeRey @teunbrand @yjunechoe,  9 , 
+General, "layer_x_support conditional compute, group- or panel-wise", EvaMaeRey started on Oct 15 2024 in General, @EvaMaeRey,  0 , 
+Ideas, "Static ggplot_build pipeline explorer", EvaMaeRey started on Oct 14 2024 in Ideas, @EvaMaeRey @yjunechoe,  6 , 
+Q&A, "aes(!!!GeomPoint$default_aes, !!!GeomSegment$default_aes) without warning", EvaMaeRey asked on Jul 21 2024 in Q&A · Unanswered, @EvaMaeRey @larmarange @teunbrand,  24 , 
+General, "geom_brick_stack as alternative to geom_dotplot", EvaMaeRey started on Oct 8 2024 in General, @EvaMaeRey @teunbrand @yjunechoe,  8 , 
+General, "Curious warning about dropped aesthetics in stat", yjunechoe started on Oct 8 2024 in General, @yjunechoe @teunbrand,  5 , 
+General, "ggwaffle StatWaffleIron extension?", EvaMaeRey started on Oct 7 2024 in General, @EvaMaeRey @teunbrand,  3 , 
+General, "stage(start = variable) works by itself without specifying after_stat/after_scale 😄🥳", yjunechoe started on Oct 7 2024 in General, @yjunechoe @teunbrand,  3 , 
+Q&A, "geom_*(stat = StatCustom) notes", EvaMaeRey asked on Jul 31 2024 in Q&A · Unanswered, @EvaMaeRey @teunbrand @yjunechoe,  18 , 
+General, "Implementation of last_plot() as closure: just old-fashioned or does that have other advantages?", yjunechoe started on Oct 1 2024 in General, @yjunechoe @teunbrand,  2 , 
+General, "non-native positional aesthetics - beyond x and y", EvaMaeRey started on Sep 26 2024 in General, @EvaMaeRey @teunbrand @yjunechoe,  20 , 
+Show and tell, "Swimmer Plots with ggswim", rsh52 started on Sep 5 2024 in Show and tell, @rsh52 @EvaMaeRey @teunbrand,  31 , 💡, Population pyramid Stat", EvaMaeRey started on Aug 5 2024 in Ideas, @EvaMaeRey @larmarange @teunbrand,  17 , 
+Show and tell, "Stat extension recipes and cookbook", EvaMaeRey started on Jun 25 2024 in Show and tell, @EvaMaeRey @teunbrand @yjunechoe,  13 , 
+Q&A, "aes(color = after_stat(change)) error for even when color is *set*", EvaMaeRey asked on Sep 5 2024 in Q&A · Unanswered, @EvaMaeRey @teunbrand @yjunechoe,  19 , 
+General, "Join meetup?", EvaMaeRey started on Aug 9 2024 in General, @EvaMaeRey @teunbrand @yjunechoe,  8 , 
+Q&A, "inequivalencies in data manipulation moves in defining Stats StatWedge (pie) example", EvaMaeRey asked on Aug 7 2024 in Q&A · Unanswered, @EvaMaeRey,  0 , 
+Ideas, "ggweek", EvaMaeRey started on Aug 5 2024 in Ideas, @EvaMaeRey,  1 , 
+Show and tell, "statexpress: \'express\' strategies for using new Stat definitions.", EvaMaeRey started on Jun 25 2024 in Show and tell, @EvaMaeRey,  9 , 
+Q&A, "How inherited can you go?", yjunechoe asked on Jun 28 2024 in Q&A · Unanswered, @yjunechoe @teunbrand,  2 , 
+Q&A, "naive compute_layer definition fails", EvaMaeRey asked on May 30 2024 in Q&A · Answered, @EvaMaeRey @teunbrand @yjunechoe,  15 ,  ,  
+Ideas, "Context-dependent expressions in the aes()", yjunechoe started on Jun 22 2024 in Ideas, @yjunechoe @larmarange @EvaMaeRey,  10 , 
+Ideas, "Add facet argument to annotate()", joranE started on Jun 21 2024 in Ideas, @joranE @EvaMaeRey @teunbrand,  4 , 
+P️olls," To divide or unite?", teunbrand started on Jun 22 2024 in Polls, @teunbrand,  0 , 
+General, "ggwaterfall w/ start and end balances - expanding discrete x scales problem.", EvaMaeRey started on Jun 18 2024 in General, @EvaMaeRey,  0 , 
+Show and tell, "faceting for sampling and resampling - mostly copying the ggplot2 extension vignette.", EvaMaeRey started on Jun 4 2024 in Show and tell, @EvaMaeRey,  1 , 
+Ideas, "extension extension, ggtext helper", EvaMaeRey started on May 3 2024 in Ideas, @EvaMaeRey @teunbrand,  10 , 
+Show and tell, "ggcalendar revisit", EvaMaeRey started on May 16 2024 in Show and tell, @EvaMaeRey @cynthiahqy @teunbrand,  9 ,  , 
+Q&A, "stat_multiresponse stat+scale trouble (prefered fruits survey example)", EvaMaeRey asked on May 22 2024 in Q&A · Unanswered, @EvaMaeRey @teunbrand,  5 ,  , 
+Q&A, "highlight a line using ggproto.", EvaMaeRey asked on May 6 2024 in Q&A · Unanswered, @EvaMaeRey @teunbrand @yjunechoe,  13 ,  , 
+Ideas, "adding call outs with a dedicated geom?", EvaMaeRey started on Apr 12 2024 in Ideas, @EvaMaeRey @aphalo @teunbrand,  21 ,  , 
+Ideas, "Package idea: ggrepel but with manual adjustments", brunomioto started on Apr 4 2024 in Ideas, @brunomioto @EvaMaeRey @teunbrand,  3 ,  , 
+Ideas, "In the new version of ggplot2, will a parameter be added to guide_colorbar, which can define to turn off the oneside ticks on, the colobar?", Andtise started on Jan 12 2024 in Ideas, @Andtise @teunbrand,  4 ,  
+Announcements, "Welcome to ggplot-extension-club discussions!, teunbrand announced on Sep 12 2022 in Announcements, @teunbrand,  1'
+
+
+```
+
+
+```{r, echo = F, warning=F, message=F, out.width="100%"}
+library(tidyverse)
+t <- tempfile()
+writeLines(discussions, t)
+df <- read_csv(t) |> 
+  mutate(initiating = str_extract(who_when_where, "\\w+")) |> 
+  mutate(when = str_extract(who_when_where, "\\w+ \\d+ \\d\\d\\d\\d")) |>
+  mutate(date = as_date(when, format = "%b %d %Y")) |>
+  mutate(participants = str_split(participants, " "))
+
+df |> 
+  mutate(id_discussion = row_number()) |>
+  mutate(num_exchanges = as.numeric(num_exchanges)) |>
+  filter(!is.na(num_exchanges)) |>
+  ggplot() + 
+  aes(area = num_exchanges, 
+      id = paste0(id_discussion, ". ", topic, " (", num_exchanges, " exchanges)") |> str_wrap(12)) + 
+  ggcirclepack::geom_circlepack(fill = "steelblue4") + 
+  coord_equal() + 
+  ggcirclepack::geom_circlepack_text(lineheight = .7, color = "whitesmoke") + 
+  scale_size(range = c(.1, 2)) + 
+  labs(title = "More than 1000 contributions have been made in discussions in almost 100 threads" |> str_wrap(40)) + 
+  theme(legend.position = "none")
+```
+
+
+
+
+```{r, echo = F, warning=F}
+library(ggraph)
+df |> 
+  mutate(id_discussion = row_number()) |>
+  unnest(participants) |>
+  filter(participants |> str_detect("^@")) |>
+  select(id_discussion, participants) |>
+  filter(id_discussion != 11) |>
+  ggraph(layout = "kk") + 
+  geom_edge_link() + 
+  geom_node_label(aes(label = name), 
+                  fill = "steelblue4" |> 
+                    scales::col_mix("white", .6)) + 
+  labs(title = "Our discussions connect extenders for in-depth exchanges.") + 
+  theme_grey()
+
+```
+
+
+```{r, echo = F, eval = F, warning=F}
+df |> 
+  mutate(id_discussion = row_number()) |>
+  unnest(participants) |>
+  filter(participants |> str_detect("^@")) |>
+  filter(topic |> str_detect("JSM")) |>
+  select(id_discussion, participants) |>
+  filter(id_discussion != 11) |>
+  ggraph(layout = "kk") + 
+  geom_edge_link() + 
+  geom_node_label(aes(label = name)) + 
+  labs(title = "And facilitate further coordination.")
+
+
+```
