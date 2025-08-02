@@ -16,6 +16,8 @@ in touch!
 
 Meetings:
 
+- Coming Soon!, , ggplot2 4.0.0 release party!
+
 - maybe, Marc Bosch-Matas,
   [{ggspark}](https://github.com/marcboschmatas/ggspark)
 
@@ -37,11 +39,19 @@ Meetings:
 
 - TBD, Jorge Roa, {ggpop}
 
-- Tentative May, Cynthia Huang, Design principles for plot helper
+- Tentative Fall, Cynthia Huang, Design principles for plot helper
   functions
 
-- Tentative June, David Gohels,
-  [{ggiraph}](https://davidgohel.github.io/ggiraph/)
+- Tentative Fall, Frank Hull,
+  [{ggpal}](https://github.com/frankiethull/ggpal2), ggplot2 and LLMs
+
+- Tentative Fall, David Gohels,
+  [{ggiraph}](https://davidgohel.github.io/ggiraph/), ggplot2 and
+  interactivity
+
+- 2025-07-16, Gina Reynolds, [Easy geom\_\*()
+  recipes](https://github.com/EvaMaeRey/easy-geom-recipes) X the ggplot2
+  4.0.0 release
 
 - 2025-06-25, Matthew Kay, {ggdist}
   [(recording)](https://youtu.be/n5s2S2yQHc0?si=A1WXzFV5TTRfY680)
@@ -54,8 +64,8 @@ Meetings:
   [(recording)](https://www.youtube.com/watch?v=tVeG7z2IgeA)”
 
 - 2025-04-09, Jan Broder Engler,
-  [tidyplots](https://github.com/jbengler/tidyplots/), Wrapper functions
-  and publication readiness
+  [{tidyplots}](https://github.com/jbengler/tidyplots/), Wrapper
+  functions and publication readiness
 
 - 2025-03-05, Winston Chang, [The R Graphics
   Cookbook](https://r-graphics.org/) & ggproto

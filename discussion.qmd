@@ -3,6 +3,8 @@ format: html
 editor: visual
 ---
 
+Unlike other forums, the ggplot2 extenders discussion forum isn't so much about efficiently communicating a question and getting the answer.  It's more about facilitating discussions and allowing people to put their experiences and ideas into words.   
+
 Check out our [online discussion forum](https://github.com/ggplot2-extenders/ggplot-extension-club/discussions) where you can contribute to existing threads or bring up new topics. Hot topics include practical questions on API for diverging bar charts and annotating a single facet as well as more theoretical terrain about ggproto inheritance.
 
 ```{r, echo = F}
@@ -109,6 +111,18 @@ df <- read_csv(t) |>
   mutate(date = as_date(when, format = "%b %d %Y")) |>
   mutate(participants = str_split(participants, " "))
 
+df |>
+  mutate(id = row_number()) |>
+  ggplot() + 
+  aes(x = date, group = id) + 
+  geom_histogram(color = "whitesmoke", 
+                 fill = "steelblue4",
+                 linewidth = .2) + 
+  scale_y_continuous(breaks = 0:5*2) + 
+  theme(panel.grid.minor = element_blank()) +
+  labs(title = "Our discussion space was established in 2022, \nand became active in the spring of 2024",
+       subtitle = "Number of discussions initiated by time period")
+
 df |> 
   mutate(id_discussion = row_number()) |>
   mutate(num_exchanges = as.numeric(num_exchanges)) |>
@@ -120,7 +134,7 @@ df |>
   coord_equal() + 
   ggcirclepack::geom_circlepack_text(lineheight = .7, color = "whitesmoke") + 
   scale_size(range = c(.1, 2)) + 
-  labs(title = "More than 1000 contributions have been made in discussions in almost 100 threads" |> str_wrap(40)) + 
+  labs(title = "More than 1000 contributions have been made\nin discussions in almost 100 threads" |> str_wrap(40)) + 
   theme(legend.position = "none")
 ```
 
@@ -140,7 +154,7 @@ df |>
   geom_node_label(aes(label = name), 
                   fill = "steelblue4" |> 
                     scales::col_mix("white", .6)) + 
-  labs(title = "Our discussions connect extenders for in-depth exchanges.") + 
+  labs(title = "Our discussions connect extenders in in-depth, open-minded exchanges.") + 
   theme_grey()
 
 ```
@@ -152,12 +166,11 @@ df |>
   unnest(participants) |>
   filter(participants |> str_detect("^@")) |>
   filter(topic |> str_detect("JSM")) |>
-  select(id_discussion, participants) |>
+  select(topic, participants, id_discussion) |>
   filter(id_discussion != 11) |>
   ggraph(layout = "kk") + 
   geom_edge_link() + 
-  geom_node_label(aes(label = name)) + 
-  labs(title = "And facilitate further coordination.")
-
+  geom_node_label(aes(label = name |> str_wrap(20))) + 
+  labs(title = "And facilitate further coordination and gathering")
 
 ```

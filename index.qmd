@@ -3,14 +3,19 @@ format: html
 editor: visual
 ---
 
-Welcome to ggplot2 extenders/ggplot2 extension club. This forum exists to facilitate conversations about experiences with extension. We like to talk about motivations, challenges, equivocations — in general, extension journeys!
+
+Welcome to ggplot2 extenders/ggplot2 extension club. This forum exists to facilitate conversations about extension experiences. We like to talk about motivations, challenges, equivocations, design decision — in general, extension journeys!  
 
 Our main activities are [meetings](./meetings.html) and [discussions](./discussion.html).
+
+Want to be notified of our meetings?  Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch!
+
+We are generously supported by Posit PBC. 🙏
 
 ::: wrap-image-left
 <img src="ggextenders-hex_files/figure-html/unnamed-chunk-1-1.png" alt="extenders hex"/>
 
-<p>Interested in joining us? Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch!</p>
+<p>Interested in joining us? </p>
 :::
 
 <!-- ![](){width="20%"} -->
@@ -24,7 +29,7 @@ Our main activities are [meetings](./meetings.html) and [discussions](./discussi
   margin: 1em 0;
   padding-left: 1em;
   border-left: 4px solid #ccc;
-  background-color: #f0f8f4; /* Light blue tint */
+  background-color: #lightgrey; /* Light blue tint */
   font-style: italic;
   border-radius: 12px;
 
@@ -101,7 +106,7 @@ ggcanvas() +
 
 ------------------------------------------------------------------------
 
-### Our meeting history
+### Meeting history [(go to meetings page)](./meetings.html)
 
 
 ```{r, message=F, warning=F, echo = F}
@@ -179,13 +184,14 @@ ggplot(talks) +
   qlayer(geom = "text",
          stat = qstat_panel(compute_panel_honeycomb), 
          mapping = aes(label = date), 
+         size = 6,
          vjust = 3, 
          ncol = 5) +
   geom_text(stat = qstat_panel(compute_panel_honeycomb), 
             lineheight = .8,
-            aes(size = case_when(nchar(package) <= 17 ~ 6,
-                                 nchar(package)<= 22 ~ 5,
-                                 TRUE ~ 3.5) ),
+            aes(size = case_when(nchar(package) <= 8 ~ 30,
+                                 nchar(package)<= 10 ~ 25,
+                                 TRUE ~ 14.5) ),
             ncol = 5, 
             vjust = 0) |>
   ggfx::with_shadow(x_offset = I(.1), y_offset = I(-.3)) +
@@ -196,8 +202,10 @@ ggplot(talks) +
   guides(size = "none") +
   # ggstamp::theme_void_fill("whitesmoke") + 
   scale_fill_viridis_c(end = .6) + 
-  scale_size(range =  c(0, 5.25)) + 
+  scale_size(range =  c(6, 12)) + 
   guides(fill = "none")
 
 
 ```
+
+#

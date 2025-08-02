@@ -1,4 +1,5 @@
 date,presenter,package,special topic
+Coming Soon!,,NA,ggplot2 4.0.0 release party!
 maybe,Marc Bosch-Matas,[{ggspark}](https://github.com/marcboschmatas/ggspark),NA
 maybe,Gavin Simpson,[{gratia}](https://github.com/gavinsimpson/gratia),NA
 maybe,Brian Danielak,[{ggranova}](https://github.com/briandk/granovaGG),NA
@@ -7,8 +8,10 @@ TBD,Grant McDermott,[{tinyplot}](https://grantmcdermott.com/tinyplot/),NA
 TBD,Pedro Aphalo,ggpmisc,NA
 TBD,Casper Van Lissa,{tidySEM},NA
 TBD,Jorge Roa,{ggpop},NA
-Tentative May,Cynthia Huang,NA,Design principles for plot helper functions
-Tentative June,David Gohels,[{ggiraph}](https://davidgohel.github.io/ggiraph/),NA
+Tentative Fall,Cynthia Huang,NA,Design principles for plot helper functions
+Tentative Fall,Frank Hull,[{ggpal}](https://github.com/frankiethull/ggpal2),ggplot2 and LLMs
+Tentative Fall,David Gohels,[{ggiraph}](https://davidgohel.github.io/ggiraph/),ggplot2 and interactivity
+2025-07-16,Gina Reynolds,NA,[Easy geom_*() recipes](https://github.com/EvaMaeRey/easy-geom-recipes) X the ggplot2 4.0.0 release
 2025-06-25,Matthew Kay,{ggdist} [(recording)](https://youtu.be/n5s2S2yQHc0?si=A1WXzFV5TTRfY680),NA
 2025-06-12,Thomas Lin Pedersen,{marquee} [(recording)](https://www.youtube.com/watch?v=tuluvJLUGeo),NA
 2025-05-07,Hassan Kibirige,NA,"[plotnine](https://plotnine.org/): A Grammar of Graphics for Python, [(recording)](https://www.youtube.com/watch?v=tVeG7z2IgeA)"

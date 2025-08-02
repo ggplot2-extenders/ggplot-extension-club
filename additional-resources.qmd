@@ -3,9 +3,35 @@ format: html
 editor: visual
 ---
 
+The extension ecosystem is large, and many resources exist apart from the ggplot2 extenders club. 
+
+```{r fig.height=20, fig.width=20, message=F, warning=F, echo = F}
+library(tidyverse)
+ggplot2.extension.scrapers::cran_gg_w_ggplot2_depends_or_imports |> 
+  mutate(author = str_split(author, pattern = "\\n")) |>
+  unnest(author) |>
+  select(author, package) |>
+  mutate(author = str_remove(author, "\\[.+")) |>
+  mutate(author = str_trim(author)) |>
+  filter(!(author |> str_detect("orcid"))) ->
+package_authors_edge_list
+
+library(ggraph)
+package_authors_edge_list |>
+  ggraph(layout = "fr") + 
+  geom_edge_link() + 
+  geom_node_label(aes(label = name)) + 
+  theme_graph() + 
+  labs(title = "'gg' packages on CRAN and authors")
+
+```
+
+
 ## Additional resources:
 
 ```{r, results = 'asis', comment="", echo = FALSE}
 cat(paste(readLines("unaffiliated_resources.txt"), "\n\n"))
 
 ```
+
+

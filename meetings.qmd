@@ -3,9 +3,9 @@ format: html
 editor: visual
 ---
 
-ggplot2 extenders meets in virtually to hear extenders talk through motivation, origins, and challenges of their extension projects!
+ggplot2 extenders meet virtually to hear extenders discuss motivation, origins, and challenges of their extension projects since 2022.  We've heard about more than 25 extension projects and look forward continuing the conversation!  [Join us](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform)
 
-Meetings:
+## Upcoming:
 
 ```{r , echo = F, warning = F, message = F }
 #results = 'asis'}
@@ -21,7 +21,19 @@ library(tidyverse)
   # cat()
 
 read.csv("meetings.csv") %>% 
-  filter(!stringr::str_detect(date, "Tentative|maybe|TBD")) %>% 
+  filter(stringr::str_detect(date, "Soon|Tentative")) %>% 
+  gt::gt() %>%
+  # gt::fmt_date(columns = c(date), date_style = "wd_m_day_year") %>% 
+  gt::sub_missing(missing_text = "---") %>% 
+  gt::fmt_markdown(columns = c(package,special.topic))
+```
+
+## Past meetings:
+
+```{r, echo = F}
+
+read.csv("meetings.csv") %>% 
+  filter(!stringr::str_detect(date, "Soon|Tentative|maybe|TBD")) %>% 
   gt::gt() %>%
   gt::fmt_date(columns = c(date), date_style = "wd_m_day_year") %>% 
   gt::sub_missing(missing_text = "---") %>% 
