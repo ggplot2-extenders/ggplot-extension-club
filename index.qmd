@@ -7,12 +7,11 @@ Welcome to ggplot2 extenders/ggplot2 extension club. This forum exists to facili
 
 Our main activities are [meetings](./meetings.html) and [discussions](./discussion.html).
 
-<div class="wrap-image-left">
-  <img src="ggextenders-hex_files/figure-html/unnamed-chunk-1-1.png" alt="extenders hex" />
-  <p>
-    Interested in joining us? Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch!
-  </p>
-</div>
+::: wrap-image-left
+<img src="ggextenders-hex_files/figure-html/unnamed-chunk-1-1.png" alt="extenders hex"/>
+
+<p>Interested in joining us? Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch!</p>
+:::
 
 <!-- ![](){width="20%"} -->
 
@@ -72,48 +71,133 @@ ggcanvas() +
 
 ```
 
----
-
+------------------------------------------------------------------------
 
 ### *What people are saying*
 
-
-::: {.quote-left}
+::: quote-left
 *It is fantastic to hear developers speaking directly to other developers.* - W. Joel Schneider, author of {arrowheadr}
 :::
 
-
-::: {.quote-right}
+::: quote-right
 *It's been great getting more involved in the extensions community, thanks for creating a place for us all to congregate!* William Gearty - {deeptime}
-
 :::
 
-::: {.quote-left}
-*Participating has been one of the highlights of my year.* - Joyce Robbins, ggplot2 enthusiast and instructor 
+::: quote-left
+*Participating has been one of the highlights of my year.* - Joyce Robbins, ggplot2 enthusiast and instructor
 :::
 
-
-::: {.quote-right}
+::: quote-right
 *It's extremely gratifying to be able to connect with and learn from people who share this still somewhat niche interest in grammatical / algebraic statistical software design.* - Cory Brunson, Author of {ggalluvial} and {ordr}
 :::
 
-::: {.quote-left}
-
-
-
+::: quote-left
 *I had a lot of fun at last week's meeting!* – Matthew Kay, author of {ggblend}, {ggdist}
-
 :::
 
-
-::: {.quote-right}
-
+::: quote-right
 *Great effort \[is put into\] organising all the meetings and inviting people.* - Teun van den Brand, author of {ggh4x}, {legendry}, ggplot2 maintainer
-
 :::
-
-
-
-
 
 ------------------------------------------------------------------------
+
+### Our meeting history
+
+
+```{r, message=F, warning=F, echo = F}
+library(tidyverse)
+
+talks <- "meetings.csv" |> 
+  read_csv() |> 
+  filter(!(date |> str_detect("Tentative"))) |> 
+  slice(-(1:8)) |>
+  mutate(date = as.Date(date))
+  
+```
+
+```{r , fig.width=15, fig.height=15, echo = F, warning=F, message=FALSE}
+talks$package <- str_extract(talks$package, "\\{.+\\}")
+talks$package[talks$presenter == "Claus Wilke"] <- "Wilke's\n'Fundamentals'"
+talks$date[talks$presenter == "Claus Wilke"] <- "2023-01-28"
+talks$package[talks$date  == min(talks$date)] <- "First\nMeeting"
+talks$package[talks$presenter == "Winston Chang"] <- "R Graphics\nCookbook,ggproto"
+# Hassan Kibirige
+talks$package[talks$presenter == "Hassan Kibirige"] <- "plotnine"
+
+pos_honeycomb <- function (x0 = 0, y0 = 0, n = 5, ncol = 3, width = 2 * sqrt(0.75), 
+    height = width * 0.75/sqrt(0.75)) 
+{
+    data.frame(x0 = pos_honeycomb_x(x0 = x0, n = n, ncol = ncol, 
+        width = width), y0 = pos_honeycomb_y(y0 = y0, n = n, 
+        ncol = ncol, height = height))
+}
+
+
+compute_panel_honeycomb <- function(data, scales, ncol = 4){
+  
+  n <- nrow(data)
+  
+  pos_honeycomb(n = n, ncol = ncol) %>% 
+    mutate(x = x0, y = y0) %>% 
+    bind_cols(data)
+  
+} 
+
+compute_panel_honeycomb_hex <- function(data, scales, n_vertices = 6, radius = .9, rotation = -.5, ncol = 4){
+
+ n <- nrow(data)
+ x0y0 <- pos_honeycomb(n = n, ncol = ncol)
+
+ data %>% 
+   mutate(id = 1:n) %>% 
+   bind_cols(x0y0) %>% 
+   crossing(the_n = 1:n_vertices) %>% 
+   mutate(x = x0 + radius * cos(-2 * pi * 0:(n_vertices - 1)/n_vertices - rotation * pi), 
+          y = y0 + radius * sin(-2 * pi * 0:(n_vertices - 1)/n_vertices - rotation * pi))
+    
+}
+
+library(statexpress)
+library(ggstamp)
+
+my_pal <- c("black", "tomato", "white", "dodgerblue", "black")
+
+
+ggplot(talks) + 
+  aes(label = package) + 
+  geom_polygon(stat = qstat_panel(compute_panel_honeycomb_hex, 
+                                  default_aes = aes(group = after_stat(id))), 
+               ncol = 5,
+               fill = alpha("black", 0)) |> 
+  ggfx::with_outer_glow(colour = "goldenrod", sigma = 3, expand = 5) + 
+  geom_polygon(stat = qstat_panel(compute_panel_honeycomb_hex, 
+                                  default_aes = aes(group = after_stat(id))), 
+               ncol = 5,
+               aes(color = NULL),
+               alpha = .85) |>
+  ggfx::with_inner_glow(colour = "goldenrod") +
+  qlayer(geom = "text",
+         stat = qstat_panel(compute_panel_honeycomb), 
+         mapping = aes(label = date), 
+         vjust = 3, 
+         ncol = 5) +
+  geom_text(stat = qstat_panel(compute_panel_honeycomb), 
+            lineheight = .8,
+            aes(size = case_when(nchar(package) <= 17 ~ 6,
+                                 nchar(package)<= 22 ~ 5,
+                                 TRUE ~ 3.5) ),
+            ncol = 5, 
+            vjust = 0) |>
+  ggfx::with_shadow(x_offset = I(.1), y_offset = I(-.3)) +
+  coord_equal() +
+  aes(fill = year(date)) + 
+  aes(color = I("whitesmoke")) + 
+  scale_colour_gradientn(colours = my_pal) +
+  guides(size = "none") +
+  # ggstamp::theme_void_fill("whitesmoke") + 
+  scale_fill_viridis_c(end = .6) + 
+  scale_size(range =  c(0, 5.25)) + 
+  guides(fill = "none")
+
+
+```
