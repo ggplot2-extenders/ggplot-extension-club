@@ -96,5 +96,12 @@
     "title": "ggplot2 extenders 🫖",
     "section": "Past meetings:",
     "text": "Past meetings:\n\n\n\n\n\n\n\n\ndate\npresenter\npackage\nspecial.topic\n\n\n\n\nWed, Jul 16, 2025\nGina Reynolds\n—\nEasy geom_*() recipes X the ggplot2 4.0.0 release\n\n\nWed, Jun 25, 2025\nMatthew Kay\n{ggdist} (recording)\n—\n\n\nThu, Jun 12, 2025\nThomas Lin Pedersen\n{marquee} (recording)\n—\n\n\nWed, May 7, 2025\nHassan Kibirige\n—\nplotnine: A Grammar of Graphics for Python, (recording)\n\n\nWed, Apr 9, 2025\nJan Broder Engler\n{tidyplots}\nWrapper functions and publication readiness\n\n\nWed, Mar 5, 2025\nWinston Chang\n—\nThe R Graphics Cookbook & ggproto (recording)\n\n\nWed, Feb 12, 2025\nMitchell O'Hara-Wild\n{ggtime} proposal\n—\n\n\nTue, Jan 21, 2025\nTeun van den Brand\n{legendry}\n—\n\n\nTue, Dec 10, 2024\nRichard Hanna\n{ggswim}\n—\n\n\nWed, Nov 13, 2024\nCory Brunson\n{ordr}\n—\n\n\nThu, Oct 24, 2024\nHadley Wickham\n{ggplot2}\nThoughts on the ggplot2 extension ecosystem (recording)\n\n\nWed, Oct 2, 2024\nJoseph Larmarange\n{ggstats}\ngglikert() and geom_likert()\n\n\nTue, Sep 10, 2024\nJames Otto\n{ggdensity}\nIRL extension culture\n\n\nMon, Aug 19, 2024\nToby Hocking\n{animint2}\n—\n\n\nSat, Jun 22, 2024\nElio Campitelli\n{ggnewscale}\n—\n\n\nSat, May 11, 2024\nJonathan Sidi\n{ggedit}\n—\n\n\nTue, Mar 12, 2024\nDi Cook\n{GGally}\nA conversation with Di Cook\n\n\nSat, Feb 10, 2024\nMalcolm Barrett\n{ggdag}\n—\n\n\nSat, Nov 4, 2023\nNicola Rennie\n{ggflowchart}\n—\n\n\nSat, Nov 4, 2023\nW. Joel Schneider\n{arrowheadr}\n—\n\n\nSat, Sep 2, 2023\nJonathan Carroll\n{ggeasy}\n—\n\n\nSat, Jun 10, 2023\nDaniel Sjoberg\n{ggsurvfit}\n—\n\n\nSat, Apr 15, 2023\nGina Reynolds\n{ggcirclepack}\n—\n\n\nSat, Jan 28, 2023\nClaus Wilke\n—\n‘Fundamentals of Data Visualization’ book project\n\n\nSat, Jul 16, 2022\nJune Choe\n{ggtrace}\n—\n\n\nSat, Jun 11, 2022\nTeun van den Brand\n{ggh4x}\n—\n\n\nSat, May 7, 2022\nAllan Cameron\n{geomtextpath}\n—\n\n\nSat, Apr 9, 2022\nDavid Sjoberg\n{ggbump}\n—\n\n\nSat, Mar 19, 2022\n—\n—\nFirst meeting"
+  },
+  {
+    "objectID": "additional-resources.html#gg-packages-on-cran-and-authors",
+    "href": "additional-resources.html#gg-packages-on-cran-and-authors",
+    "title": "ggplot2 extenders 🫖",
+    "section": "‘gg’ packages on CRAN and authors",
+    "text": "‘gg’ packages on CRAN and authors"
   }
 ]
