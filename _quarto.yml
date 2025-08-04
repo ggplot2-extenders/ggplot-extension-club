@@ -11,12 +11,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: discussion.qmd
-        text: Discuss
       - href: meetings.qmd
         text: Meet
+      - href: discussion.qmd
+        text: Discuss
       - href: additional-resources.qmd
-        text: More Resources
+        text: Educational Resources
 
     tools:
       - icon: github

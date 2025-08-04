@@ -74,7 +74,7 @@
     "href": "additional-resources.html",
     "title": "ggplot2 extenders 🫖",
     "section": "",
-    "text": "The extension ecosystem is large, and many resources exist apart from the ggplot2 extenders club."
+    "text": "Check out the beginner-friendly ‘easy geom_*() recipes’, which have been tested by new-comers, vetted by experts, is feedback refined via surveys and focus groups, and are kept up to date (soon incorporating ggplot2 4.0.0 release developments). You can also check out the under-development ggplot2 extension cookbook for more extension moves.\nAdditional unaffiliated educational resources include the extending ggplot2 chapters of the ggplot2 book (Programming with ggplot2, ggplot2 internals, Writing ggplot2 extensions, Case Study: Springs); the extending ggplot2 vignette; and the ggproto tag on StackOverflow. The talks Extending your ability to extend ggplot2 by Thomas Lin Pederson at rstudio::conf 2020 and Best practises for programming with ggplot2 by Dewey Dunnington at rstudio::conf 2020, Cracking open ggplot internals with {ggtrace} by June Choe at rstudio::conf 2022 might also help orient you.\nAdditional resources include the ggplot2 repository, the extensions gallery, the Awesome ggplot2 repository."
   },
   {
     "objectID": "additional-resources.html#additional-resources",
@@ -102,6 +102,6 @@
     "href": "additional-resources.html#gg-packages-on-cran-and-authors",
     "title": "ggplot2 extenders 🫖",
     "section": "‘gg’ packages on CRAN and authors",
-    "text": "‘gg’ packages on CRAN and authors"
+    "text": "‘gg’ packages on CRAN and authors\nThe ggplot2 extension ecosystem is vast."
   }
 ]
