@@ -5,7 +5,9 @@ editor: visual
 
 Check out the beginner-friendly ['easy geom\_\*() recipes'](https://github.com/EvaMaeRey/easy-geom-recipes), which have been tested by new-comers, vetted by experts, is feedback-refined via surveys and focus groups, and are kept up-to-date (noting and soon incorporating ggplot2 4.0.0 release developments). You can also check out the under-development [ggplot2 extension cookbook](https://evamaerey.github.io/ggplot2-extension-cookbook/) for more extension moves.
 
-Additional unaffiliated educational resources include the extending ggplot2 chapters of the [ggplot2 book](https://ggplot2-book.org/) ([Programming with ggplot2](https://ggplot2-book.org/programming.html), [ggplot2 internals](https://ggplot2-book.org/internals.html), [Writing ggplot2 extensions](https://ggplot2-book.org/extensions.html), [Case Study: Springs](https://ggplot2-book.org/spring1.html)); the [extending ggplot2](https://ggplot2.tidyverse.org/articles/extending-ggplot2.html) vignette; and the [ggproto](https://stackoverflow.com/questions/tagged/ggproto) tag on StackOverflow. Talks that may help orient you to extension include [Extending your ability to extend ggplot2](https://www.rstudio.com/resources/rstudioconf-2020/extending-your-ability-to-extend-ggplot2/) by Thomas Lin Pederson at rstudio::conf 2020, [Best practises for programming with ggplot2](https://www.rstudio.com/resources/rstudioconf-2020/best-practices-for-programming-with-ggplot2/) by Dewey Dunnington at rstudio::conf 2020, and [Cracking open ggplot internals with {ggtrace}](https://www.rstudio.com/resources/rstudioconf-2020/best-practices-for-programming-with-ggplot2/) by June Choe at rstudio::conf 2022.
+Additional educational resources include the extending ggplot2 chapters of the [ggplot2 book](https://ggplot2-book.org/) ([Programming with ggplot2](https://ggplot2-book.org/programming.html), [ggplot2 internals](https://ggplot2-book.org/internals.html), [Writing ggplot2 extensions](https://ggplot2-book.org/extensions.html), [Case Study: Springs](https://ggplot2-book.org/spring1.html)); the [extending ggplot2](https://ggplot2.tidyverse.org/articles/extending-ggplot2.html) vignette; and the [ggproto](https://stackoverflow.com/questions/tagged/ggproto) tag on StackOverflow.
+
+Talks that may help orient you to extension include [Extending your ability to extend ggplot2](https://www.rstudio.com/resources/rstudioconf-2020/extending-your-ability-to-extend-ggplot2/) by Thomas Lin Pederson at rstudio::conf 2020, [Best practises for programming with ggplot2](https://www.rstudio.com/resources/rstudioconf-2020/best-practices-for-programming-with-ggplot2/) by Dewey Dunnington at rstudio::conf 2020, and [Cracking open ggplot internals with {ggtrace}](https://www.rstudio.com/resources/rstudioconf-2020/best-practices-for-programming-with-ggplot2/) by June Choe at rstudio::conf 2022.
 
 Additional resources include the [ggplot2](https://github.com/tidyverse/ggplot2) repository, the [extensions gallery](https://exts.ggplot2.tidyverse.org/gallery/), the [Awesome `ggplot2`](https://github.com/erikgahner/awesome-ggplot2) repository.
 
@@ -14,9 +16,11 @@ cat(paste(readLines("unaffiliated_resources.txt"), "\n\n"))
 
 ```
 
-## 'gg' packages on CRAN and authors
+## 
 
-The ggplot2 extension ecosystem is vast.
+The ggplot2 extension ecosystem is vast the source code can be of course an additional useful reference.
+
+#### 'gg' packages on CRAN and authors
 
 ```{r fig.height=20, fig.width=20, message=F, warning=F, echo = F}
 library(tidyverse)
