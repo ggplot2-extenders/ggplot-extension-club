@@ -141,7 +141,7 @@ df |>
 
 
 
-```{r, echo = F, warning=F}
+```{r, echo = F, warning=F, eval = F}
 library(ggraph)
 df |> 
   mutate(id_discussion = row_number()) |>
@@ -160,7 +160,7 @@ df |>
 ```
 
 
-```{r, echo = F, eval = F, warning=F}
+```{r, echo = F, eval = F, warning=F, eval = F}
 df |> 
   mutate(id_discussion = row_number()) |>
   unnest(participants) |>
