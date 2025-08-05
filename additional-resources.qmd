@@ -18,7 +18,7 @@ cat(paste(readLines("unaffiliated_resources.txt"), "\n\n"))
 
 ## 
 
-The ggplot2 extension ecosystem is vast the source code can be of course an additional useful reference.
+The ggplot2 extension ecosystem is vast the source code these packages can be an additional useful reference.
 
 #### 'gg' packages on CRAN and authors
 

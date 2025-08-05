@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "",
+    "title": "Coordination of this space is generously supported by Posit PBC. 🙏",
     "section": "",
-    "text": "Welcome to ggplot2 extenders/ggplot2 extension club. This forum exists to facilitate conversations about extension experiences. We like to talk about motivations, challenges, equivocations, design decision — in general, extension journeys!\nOur main activities are meetings and discussions.\nWe are generously supported by Posit PBC. 🙏\n\n\n\nInterested in joining us? Please leave your contact info here and let us know a little about your interest in ggplot2 extension so we can be in touch!\n\n\n\n\n\n\n\nNote that the extension ecosystem is extensive and other initiatives exist to support extenders, check out some other resources.\n\n\n\n\n\n\n\n\n\n\n\nWhat people are saying\n\nIt is fantastic to hear developers speaking directly to other developers. - W. Joel Schneider, author of {arrowheadr}\n\n\nIt’s been great getting more involved in the extensions community, thanks for creating a place for us all to congregate! William Gearty - {deeptime}\n\n\nParticipating has been one of the highlights of my year. - Joyce Robbins, ggplot2 enthusiast and instructor\n\n\nIt’s extremely gratifying to be able to connect with and learn from people who share this still somewhat niche interest in grammatical / algebraic statistical software design. - Cory Brunson, Author of {ggalluvial} and {ordr}\n\n\nI had a lot of fun at last week’s meeting! – Matthew Kay, author of {ggblend}, {ggdist}\n\n\nGreat effort [is put into] organising all the meetings and inviting people. - Teun van den Brand, author of {ggh4x}, {legendry}, ggplot2 maintainer\n\n\n\n\nOur meeting history (go to meetings page)"
+    "text": "Welcome to ggplot2 extenders/ggplot2 extension club. This forum exists to facilitate conversations about extension experiences. We like to talk about motivations, challenges, equivocations, design decision — in general, extension journeys!\nOur main activities are meetings and discussions.\nWant to be notified of our meetings? Please leave your contact info here and let us know a little about your interest in ggplot2 extension so we can be in touch!\n\n\n\nInterested in joining us?\n\n\n\n\n\n\n\nNote that the extension ecosystem is extensive and other initiatives exist to support extenders, check out some other resources.\n\n\n\n\n\n\n\n\n\n\n\nWhat people are saying\n\nIt is fantastic to hear developers speaking directly to other developers. - W. Joel Schneider, author of {arrowheadr}\n\n\nIt’s been great getting more involved in the extensions community, thanks for creating a place for us all to congregate! William Gearty - {deeptime}\n\n\nParticipating has been one of the highlights of my year. - Joyce Robbins, ggplot2 enthusiast and instructor\n\n\nIt’s extremely gratifying to be able to connect with and learn from people who share this still somewhat niche interest in grammatical / algebraic statistical software design. - Cory Brunson, Author of {ggalluvial} and {ordr}\n\n\nI had a lot of fun at last week’s meeting! – Matthew Kay, author of {ggblend}, {ggdist}\n\n\nGreat effort [is put into] organising all the meetings and inviting people. - Teun van den Brand, author of {ggh4x}, {legendry}, ggplot2 maintainer\n\n\n\n\nMeeting history (go to meetings page)\n\n\n\n\n\n\n\n\n\n\n\nCoordination of this space is generously supported by Posit PBC. 🙏"
   },
   {
     "objectID": "ggextenders-hex.html",
@@ -103,5 +103,12 @@
     "title": "ggplot2 extenders 🫖",
     "section": "‘gg’ packages on CRAN and authors",
     "text": "‘gg’ packages on CRAN and authors\nThe ggplot2 extension ecosystem is vast the source code can be of course an additional useful reference."
+  },
+  {
+    "objectID": "additional-resources.html#section",
+    "href": "additional-resources.html#section",
+    "title": "ggplot2 extenders 🫖",
+    "section": "",
+    "text": "The ggplot2 extension ecosystem is vast the source code these packages can be an additional useful reference.\n\n‘gg’ packages on CRAN and authors"
   }
 ]

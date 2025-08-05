@@ -10,7 +10,6 @@ Our main activities are [meetings](./meetings.html) and [discussions](./discussi
 
 Want to be notified of our meetings?  Please leave your contact info [here](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform) and let us know a little about your interest in ggplot2 extension so we can be in touch!
 
-We are generously supported by Posit PBC. 🙏
 
 ::: wrap-image-left
 <img src="ggextenders-hex_files/figure-html/unnamed-chunk-1-1.png" alt="extenders hex"/>
@@ -114,8 +113,7 @@ library(tidyverse)
 
 talks <- "meetings.csv" |> 
   read_csv() |> 
-  filter(!(date |> str_detect("Tentative"))) |> 
-  slice(-(1:8)) |>
+  filter(!(date |> str_detect("Soon|Tentative|maybe|TBD"))) |> 
   mutate(date = as.Date(date))
   
 ```
@@ -208,4 +206,4 @@ ggplot(talks) +
 
 ```
 
-#
+# Coordination of this space is generously supported by Posit PBC. 🙏

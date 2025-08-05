@@ -64,8 +64,7 @@ Meetings:
   [(recording)](https://www.youtube.com/watch?v=tVeG7z2IgeA)”
 
 - 2025-04-09, Jan Broder Engler,
-  [{tidyplots}](https://github.com/jbengler/tidyplots/), Wrapper
-  functions and publication readiness
+  [{tidyplots}](https://github.com/jbengler/tidyplots/)
 
 - 2025-03-05, Winston Chang, [The R Graphics
   Cookbook](https://r-graphics.org/) & ggproto
