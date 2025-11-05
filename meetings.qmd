@@ -3,7 +3,7 @@ format: html
 editor: visual
 ---
 
-ggplot2 extenders meet virtually to hear extenders discuss motivation, origins, and challenges of their extension projects since 2022.  We've heard about more than 25 extension projects and look forward continuing the conversation!  [Join us](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform)
+ggplot2 extenders meet virtually to hear extenders discuss motivation, origins, and challenges of their extension projects since 2022. We've heard about more than 25 extension projects and look forward continuing the conversation! [Join us](https://docs.google.com/forms/d/e/1FAIpQLSe3M1KwUPrmTfEGuuQp0fZ0J7dZkk_82gb310JCvdouMTa_7Q/viewform)
 
 ## Upcoming:
 

@@ -26,7 +26,6 @@ Meetings:
 
 ```{r, echo = F, results = 'asis'}
 tibble::tribble(~ date, ~ presenter, ~ package, ~`special topic`, #~link,
-"Coming Soon!", "", NA, "ggplot2 4.0.0 release party!",
 "maybe", "Marc Bosch-Matas", "[{ggspark}](https://github.com/marcboschmatas/ggspark)", NA,
 "maybe", "Gavin Simpson", "[{gratia}](https://github.com/gavinsimpson/gratia)", NA,
 "maybe", "Brian Danielak", "[{ggranova}](https://github.com/briandk/granovaGG)", NA,
@@ -37,14 +36,17 @@ tibble::tribble(~ date, ~ presenter, ~ package, ~`special topic`, #~link,
 "TBD", "Jorge Roa", "{ggpop}", NA,
 "Tentative Fall", "Cynthia Huang", NA, "Design principles for plot helper functions",
 "Tentative Fall", "Frank Hull", "[{ggpal}](https://github.com/frankiethull/ggpal2)", "ggplot2 and LLMs",
-"Tentative Fall", "David Gohels", "[{ggiraph}](https://davidgohel.github.io/ggiraph/)", "ggplot2 and interactivity",
+"2025-11-12", "Barret Schloerke", "[{GGally}](https://github.com/ggobi/ggally/)", NA,
+"2025-10-15", "David Gohels", "[{ggiraph}](https://davidgohel.github.io/ggiraph/)", "ggplot2 and interactivity",
+"2025-10-03", "Teun van den Brand", NA, "ggplot2 4.0.0 release party!",
+"2025-09-03", "Joyce Robbins", NA, "JSM Reprise: Who are the ggplot2 extenders?",
 "2025-07-16", "Gina Reynolds", NA, "[Easy geom_*() recipes](https://github.com/EvaMaeRey/easy-geom-recipes) X the ggplot2 4.0.0 release",
 "2025-06-25", "Matthew Kay", "{ggdist} [(recording)](https://youtu.be/n5s2S2yQHc0?si=A1WXzFV5TTRfY680)", NA, # 2pm Chicago
 "2025-06-12", "Thomas Lin Pedersen", "{marquee} [(recording)](https://www.youtube.com/watch?v=tuluvJLUGeo)", NA, #9pm CEST - Thursday
 "2025-05-07", "Hassan Kibirige", NA, "[plotnine](https://plotnine.org/): A Grammar of Graphics for Python, [(recording)](https://www.youtube.com/watch?v=tVeG7z2IgeA)",
 "2025-04-09", "Jan Broder Engler", "[{tidyplots}](https://github.com/jbengler/tidyplots/)", NA,
-                "2025-03-05", "Winston Chang", NA, "[The R Graphics Cookbook](https://r-graphics.org/) & ggproto [(recording)](https://www.youtube.com/watch?v=wyLNiPT6aWA)",
-                "2025-02-12", "Mitchell O'Hara-Wild", "[{ggtime} proposal](https://github.com/mitchelloharawild/talk-ggextenders-ggtime)", NA,
+"2025-03-05", "Winston Chang", NA, "[The R Graphics Cookbook](https://r-graphics.org/) & ggproto [(recording)](https://www.youtube.com/watch?v=wyLNiPT6aWA)",
+"2025-02-12", "Mitchell O'Hara-Wild", "[{ggtime} proposal](https://github.com/mitchelloharawild/talk-ggextenders-ggtime)", NA,
                 "2025-01-21", "Teun van den Brand", "[{legendry}](https://github.com/teunbrand/legendry)", NA,
                 "2024-12-10", "Richard Hanna", "[{ggswim}](https://github.com/CHOP-CGTInformatics/ggswim)", NA,
                 "2024-11-13", "Cory Brunson", "[{ordr}](https://github.com/corybrunson/ordr/)", NA,

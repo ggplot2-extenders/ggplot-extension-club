@@ -16,8 +16,6 @@ in touch!
 
 Meetings:
 
-- Coming Soon!, , ggplot2 4.0.0 release party!
-
 - maybe, Marc Bosch-Matas,
   [{ggspark}](https://github.com/marcboschmatas/ggspark)
 
@@ -45,9 +43,16 @@ Meetings:
 - Tentative Fall, Frank Hull,
   [{ggpal}](https://github.com/frankiethull/ggpal2), ggplot2 and LLMs
 
-- Tentative Fall, David Gohels,
+- 2025-11-12, Barret Schloerke,
+  [{GGally}](https://github.com/ggobi/ggally/)
+
+- 2025-10-15, David Gohels,
   [{ggiraph}](https://davidgohel.github.io/ggiraph/), ggplot2 and
   interactivity
+
+- 2025-10-03, Teun van den Brand, ggplot2 4.0.0 release party!
+
+- 2025-09-03, Joyce Robbins, JSM Reprise: Who are the ggplot2 extenders?
 
 - 2025-07-16, Gina Reynolds, [Easy geom\_\*()
   recipes](https://github.com/EvaMaeRey/easy-geom-recipes) X the ggplot2
