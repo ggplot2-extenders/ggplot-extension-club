@@ -45,14 +45,17 @@ Meetings:
 
 - 2025-11-12, Barret Schloerke,
   [{GGally}](https://github.com/ggobi/ggally/)
+  [recording](https://www.youtube.com/watch?v=Q4Cf_pIr4gs)
 
 - 2025-10-15, David Gohels,
   [{ggiraph}](https://davidgohel.github.io/ggiraph/), ggplot2 and
   interactivity
 
 - 2025-10-03, Teun van den Brand, ggplot2 4.0.0 release party!
+  [recording](https://www.youtube.com/watch?v=4ciZdGpBzCQ)
 
 - 2025-09-03, Joyce Robbins, JSM Reprise: Who are the ggplot2 extenders?
+  [recording](https://www.youtube.com/watch?v=ct0YzpcJR5k)
 
 - 2025-07-16, Gina Reynolds, [Easy geom\_\*()
   recipes](https://github.com/EvaMaeRey/easy-geom-recipes) X the ggplot2

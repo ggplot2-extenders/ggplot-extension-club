@@ -36,10 +36,10 @@ tibble::tribble(~ date, ~ presenter, ~ package, ~`special topic`, #~link,
 "TBD", "Jorge Roa", "{ggpop}", NA,
 "Tentative Fall", "Cynthia Huang", NA, "Design principles for plot helper functions",
 "Tentative Fall", "Frank Hull", "[{ggpal}](https://github.com/frankiethull/ggpal2)", "ggplot2 and LLMs",
-"2025-11-12", "Barret Schloerke", "[{GGally}](https://github.com/ggobi/ggally/)", NA,
+"2025-11-12", "Barret Schloerke", "[{GGally}](https://github.com/ggobi/ggally/) [recording](https://www.youtube.com/watch?v=Q4Cf_pIr4gs)", NA,
 "2025-10-15", "David Gohels", "[{ggiraph}](https://davidgohel.github.io/ggiraph/)", "ggplot2 and interactivity",
-"2025-10-03", "Teun van den Brand", NA, "ggplot2 4.0.0 release party!",
-"2025-09-03", "Joyce Robbins", NA, "JSM Reprise: Who are the ggplot2 extenders?",
+"2025-10-03", "Teun van den Brand", NA, "ggplot2 4.0.0 release party! [recording](https://www.youtube.com/watch?v=4ciZdGpBzCQ)",
+"2025-09-03", "Joyce Robbins", NA, "JSM Reprise: Who are the ggplot2 extenders? [recording](https://www.youtube.com/watch?v=ct0YzpcJR5k)",
 "2025-07-16", "Gina Reynolds", NA, "[Easy geom_*() recipes](https://github.com/EvaMaeRey/easy-geom-recipes) X the ggplot2 4.0.0 release",
 "2025-06-25", "Matthew Kay", "{ggdist} [(recording)](https://youtu.be/n5s2S2yQHc0?si=A1WXzFV5TTRfY680)", NA, # 2pm Chicago
 "2025-06-12", "Thomas Lin Pedersen", "{marquee} [(recording)](https://www.youtube.com/watch?v=tuluvJLUGeo)", NA, #9pm CEST - Thursday
