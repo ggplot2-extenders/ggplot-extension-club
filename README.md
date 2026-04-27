@@ -37,8 +37,17 @@ Meetings:
 
 - TBD, Jorge Roa, {ggpop}
 
-- Tentative Fall, Cynthia Huang, Design principles for plot helper
-  functions
+- 2026-04-24, RMedicine practice, {ggregions} and {medicalcoder}
+
+- 2026-04-07, Cynthia Huang, Design principles for plot helper functions
+
+- 2026-03-10, James Otto, reflection on extension workshop
+
+- 2026-02-24, Maggie Ma,
+  [{ggincerta}](https://github.com/maggiexma/ggincerta)
+
+- 2026-02-04, Gina Reynolds,
+  [{ggdims}](https://github.com/evaMaeRey/ggdims)
 
 - Tentative Fall, Frank Hull,
   [{ggpal}](https://github.com/frankiethull/ggpal2), ggplot2 and LLMs
@@ -151,19 +160,33 @@ Meetings:
 - 2022-03-19, First meeting
 
 <!-- -   [{animint2}](https://github.com/animint/animint2), Toby Hocking, August 19, 2024 -->
+
 <!-- Past meetings -->
+
 <!-- -   [{ggnewscale}](https://eliocamp.github.io/ggnewscale/), Elio Campitelli, June 22/23, 2024 -->
+
 <!-- -   [{ggedit}](https://yonicd.github.io/ggedit/), Jonathan Sidi, May 11, 2024 -->
+
 <!-- -   A conversation with Di Cook, early extension and [{GGally}](https://ggobi.github.io/ggally/), March 12/13, 2024 -->
+
 <!-- -   [{ggdag}](https://r-causal.github.io/ggdag/), Malcolm Barrett, Feb 10, 2024 -->
+
 <!-- -   [{ggflowchart}](https://nrennie.rbind.io/ggflowchart/) Nicola Rennie & [{arrowheadr}](https://wjschne.github.io/arrowheadr/) W. Joel Schneider Nov 4, 2023 -->
+
 <!-- -   [{ggeasy}](https://jonocarroll.github.io/ggeasy/) Jonathan Carroll, Sept 2, 2023 -->
+
 <!-- -   [{ggsurvfit}](https://www.danieldsjoberg.com/ggsurvfit/), Daniel Sjoberg, June 10, 2023 -->
+
 <!-- -   [{ggcirclepack}](https://github.com/EvaMaeRey/ggcirclepack), Gina Reynolds, April 15, 2023 -->
+
 <!-- -   [*Fundamentals of Data Visualization*](), Claus Wilke, Jan 28, 2023 -->
+
 <!-- -   [{ggtrace}](https://yjunechoe.github.io/ggtrace/), June Choe, July 16, 2022 -->
+
 <!-- -   [{ggh4x}](https://teunbrand.github.io/ggh4x/), Teun Van Den Brand, June 11, 2022 -->
+
 <!-- -   [{geomtextpath}](https://allancameron.github.io/geomtextpath/) Allan Cameron May 7, 2022 -->
+
 <!-- -   [{ggbump}](https://github.com/davidsjoberg/ggbump) David Sjoberg, April 9, 2022 -->
 
 ## Other Resources

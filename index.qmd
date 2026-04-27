@@ -206,4 +206,4 @@ ggplot(talks) +
 
 ```
 
-# Coordination of this space is generously supported by Posit PBC. 🙏
+> Coordination of this space has been generously supported by Posit PBC. 🙏
