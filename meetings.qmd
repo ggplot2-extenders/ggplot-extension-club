@@ -33,6 +33,7 @@ read.csv("meetings.csv") %>%
 ```{r, echo = F}
 
 read.csv("meetings.csv") %>% 
+  select(-short_title) |> 
   filter(!stringr::str_detect(date, "Soon|Tentative|maybe|TBD")) %>% 
   gt::gt() %>%
   gt::fmt_date(columns = c(date), date_style = "wd_m_day_year") %>% 
