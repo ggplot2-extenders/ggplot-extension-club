@@ -16,148 +16,162 @@ in touch!
 
 Meetings:
 
-- maybe, Marc Bosch-Matas,
-  [{ggspark}](https://github.com/marcboschmatas/ggspark)
+- 2026-06-30, Teun van den Brand and Mickaël Canouil, ggsql and
+  gribouille [(recording)](https://www.youtube.com/watch?v=Vk8SgGn6W64),
+  “ggsql and
 
-- maybe, Gavin Simpson,
-  [{gratia}](https://github.com/gavinsimpson/gratia)
+- gribouille”
 
-- maybe, Brian Danielak,
-  [{ggranova}](https://github.com/briandk/granovaGG)
+- 2026-06-16, Paul Murrell, “R grid graphics
+  [(recording)](https://youtu.be/ket92s7nNCY?si=wofBP6U_SzJiAYC5),
+  [(slides)](https://www.stat.auckland.ac.nz/~paul/Talks/ggplotExtenders2026/#/title-slide)”,
+  grid
 
-- maybe, Heike Hofmann,
-  [{ggparallel}](https://heike.github.io/ggparallel/)
+- 2026-04-24, R Medicine practice, {ggregions}
+  [(slides)](https://evamaerey.github.io/mytidytuesday/2026-04-03-r-medicine-ggregions/asa-cowy-ggregions.html#1)
+  and [{medicalcoder}](https://www.peteredewitt.com/medicalcoder/) ,
+  “ggregions and
 
-- TBD, Grant McDermott,
-  [{tinyplot}](https://grantmcdermott.com/tinyplot/)
-
-- TBD, Pedro Aphalo, ggpmisc
-
-- TBD, Casper Van Lissa, {tidySEM}
-
-- TBD, Jorge Roa, {ggpop}
-
-- 2026-04-24, RMedicine practice, {ggregions} and {medicalcoder}
+- medicalcoder”
 
 - 2026-04-07, Cynthia Huang, Design principles for plot helper functions
+  [(recording)](https://www.youtube.com/watch?v=1bhTv54jRMM&list=PLpUeWjs9wDGc4C_Db_u4T7g_rDmw9ZkXE&index=11),
+  “Plot
 
-- 2026-03-10, James Otto, reflection on extension workshop
+- helpers”
+
+- 2026-03-10, James Otto, Reflection on extension workshop
+  [(recording)](https://youtu.be/6ojrqaiK9B4?si=Qh4VM7eJtzKRJFuv),
+  “Layers
+
+- workshop”
 
 - 2026-02-24, Maggie Ma,
-  [{ggincerta}](https://github.com/maggiexma/ggincerta)
+  [{ggincerta}](https://github.com/maggiexma/ggincerta),
 
 - 2026-02-04, Gina Reynolds,
-  [{ggdims}](https://github.com/evaMaeRey/ggdims)
+  [{ggdims}](https://github.com/evaMaeRey/ggdims),
 
-- Tentative Fall, Frank Hull,
+- 2025-12-02, Frank Hull,
   [{ggpal}](https://github.com/frankiethull/ggpal2), ggplot2 and LLMs
+  [(recording)](https://www.youtube.com/watch?v=KZEudkk3pT4),
 
 - 2025-11-12, Barret Schloerke,
   [{GGally}](https://github.com/ggobi/ggally/)
-  [recording](https://www.youtube.com/watch?v=Q4Cf_pIr4gs)
+  [(recording)](https://www.youtube.com/watch?v=Q4Cf_pIr4gs),
 
 - 2025-10-15, David Gohels,
   [{ggiraph}](https://davidgohel.github.io/ggiraph/), ggplot2 and
   interactivity
+  [(recording)](https://www.youtube.com/watch?v=MgxvnPwCYs8),
 
 - 2025-10-03, Teun van den Brand, ggplot2 4.0.0 release party!
-  [recording](https://www.youtube.com/watch?v=4ciZdGpBzCQ)
+  [(recording)](https://www.youtube.com/watch?v=4ciZdGpBzCQ), “4.0.0
+
+- release
+
+- party”
 
 - 2025-09-03, Joyce Robbins, JSM Reprise: Who are the ggplot2 extenders?
-  [recording](https://www.youtube.com/watch?v=ct0YzpcJR5k)
+  [(recording)](https://www.youtube.com/watch?v=ct0YzpcJR5k), JSM
+  reprise
 
 - 2025-07-16, Gina Reynolds, [Easy geom\_\*()
   recipes](https://github.com/EvaMaeRey/easy-geom-recipes) X the ggplot2
-  4.0.0 release
+  4.0.0 release, “Easy recipes
+
+- 4.0.0 updates”
 
 - 2025-06-25, Matthew Kay, {ggdist}
-  [(recording)](https://youtu.be/n5s2S2yQHc0?si=A1WXzFV5TTRfY680)
+  [(recording)](https://youtu.be/n5s2S2yQHc0?si=A1WXzFV5TTRfY680),
 
 - 2025-06-12, Thomas Lin Pedersen, {marquee}
-  [(recording)](https://www.youtube.com/watch?v=tuluvJLUGeo)
+  [(recording)](https://www.youtube.com/watch?v=tuluvJLUGeo),
 
 - 2025-05-07, Hassan Kibirige, “[plotnine](https://plotnine.org/): A
   Grammar of Graphics for Python,
-  [(recording)](https://www.youtube.com/watch?v=tVeG7z2IgeA)”
+  [(recording)](https://www.youtube.com/watch?v=tVeG7z2IgeA)”, plotnine
 
 - 2025-04-09, Jan Broder Engler,
-  [{tidyplots}](https://github.com/jbengler/tidyplots/)
+  [{tidyplots}](https://github.com/jbengler/tidyplots/),
 
 - 2025-03-05, Winston Chang, [The R Graphics
   Cookbook](https://r-graphics.org/) & ggproto
-  [(recording)](https://www.youtube.com/watch?v=wyLNiPT6aWA)
+  [(recording)](https://www.youtube.com/watch?v=wyLNiPT6aWA),
 
 - 2025-02-12, Mitchell O’Hara-Wild, [{ggtime}
-  proposal](https://github.com/mitchelloharawild/talk-ggextenders-ggtime)
+  proposal](https://github.com/mitchelloharawild/talk-ggextenders-ggtime),
 
 - 2025-01-21, Teun van den Brand,
-  [{legendry}](https://github.com/teunbrand/legendry)
+  [{legendry}](https://github.com/teunbrand/legendry),
 
 - 2024-12-10, Richard Hanna,
-  [{ggswim}](https://github.com/CHOP-CGTInformatics/ggswim)
+  [{ggswim}](https://github.com/CHOP-CGTInformatics/ggswim),
 
 - 2024-11-13, Cory Brunson,
-  [{ordr}](https://github.com/corybrunson/ordr/)
+  [{ordr}](https://github.com/corybrunson/ordr/),
 
 - 2024-10-24, Hadley Wickham,
   [{ggplot2}](https://github.com/tidyverse/ggplot2/), Thoughts on the
   ggplot2 extension ecosystem
-  [(recording)](https://www.youtube.com/watch?v=kjjcgdkowXs&feature=youtu.be)
+  [(recording)](https://www.youtube.com/watch?v=kjjcgdkowXs&feature=youtu.be),
 
 - 2024-10-02, Joseph Larmarange,
   [{ggstats}](https://github.com/larmarange/ggstats/), gglikert() and
-  geom_likert()
+  geom_likert(),
 
 - 2024-09-10, James Otto,
   [{ggdensity}](https://github.com/jamesotto852/ggdensity/), IRL
-  extension culture
+  extension culture,
 
 - 2024-08-19, Toby Hocking,
-  [{animint2}](https://github.com/animint/animint2)
+  [{animint2}](https://github.com/animint/animint2),
 
 - 2024-06-22, Elio Campitelli,
-  [{ggnewscale}](https://github.com/eliocamp/ggnewscale/)
+  [{ggnewscale}](https://github.com/eliocamp/ggnewscale/),
 
 - 2024-05-11, Jonathan Sidi,
-  [{ggedit}](https://github.com/yonicd/ggedit)
+  [{ggedit}](https://github.com/yonicd/ggedit),
 
 - 2024-03-12, Di Cook, [{GGally}](https://github.com/ggobi/ggally/), A
-  conversation with Di Cook
+  conversation with Di Cook ,
 
 - 2024-02-10, Malcolm Barrett,
-  [{ggdag}](https://github.com/r-causal/ggdag/)
+  [{ggdag}](https://github.com/r-causal/ggdag/),
 
 - 2023-11-04, Nicola Rennie,
-  [{ggflowchart}](https://github.com/nrennie/ggflowchart)
+  [{ggflowchart}](https://github.com/nrennie/ggflowchart),
 
 - 2023-11-04, W. Joel Schneider,
-  [{arrowheadr}](https://github.com/wjschne/arrowheadr)
+  [{arrowheadr}](https://github.com/wjschne/arrowheadr),
 
 - 2023-09-02, Jonathan Carroll,
-  [{ggeasy}](https://github.com/jonocarroll/ggeasy/)
+  [{ggeasy}](https://github.com/jonocarroll/ggeasy/),
 
 - 2023-06-10, Daniel Sjoberg,
-  [{ggsurvfit}](https://github.com/pharmaverse/ggsurvfit/)
+  [{ggsurvfit}](https://github.com/pharmaverse/ggsurvfit/),
 
 - 2023-04-15, Gina Reynolds,
-  [{ggcirclepack}](https://github.com/EvaMaeRey/ggcirclepack)
+  [{ggcirclepack}](https://github.com/EvaMaeRey/ggcirclepack),
 
 - 2023-01-28, Claus Wilke, [‘Fundamentals of Data
-  Visualization’](https://github.com/clauswilke/dataviz) book project
+  Visualization’](https://github.com/clauswilke/dataviz) book project,
 
 - 2022-07-16, June Choe,
-  [{ggtrace}](https://github.com/yjunechoe/ggtrace/)
+  [{ggtrace}](https://github.com/yjunechoe/ggtrace/),
 
 - 2022-06-11, Teun van den Brand,
-  [{ggh4x}](https://github.com/teunbrand/ggh4x/)
+  [{ggh4x}](https://github.com/teunbrand/ggh4x/),
 
 - 2022-05-07, Allan Cameron,
-  [{geomtextpath}](https://github.com/AllanCameron/geomtextpath/)
+  [{geomtextpath}](https://github.com/AllanCameron/geomtextpath/),
 
 - 2022-04-09, David Sjoberg,
-  [{ggbump}](https://github.com/davidsjoberg/ggbump)
+  [{ggbump}](https://github.com/davidsjoberg/ggbump),
 
-- 2022-03-19, First meeting
+- 2022-03-19, First meeting,
+
+![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 <!-- -   [{animint2}](https://github.com/animint/animint2), Toby Hocking, August 19, 2024 -->
 
