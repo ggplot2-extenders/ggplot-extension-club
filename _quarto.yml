@@ -27,7 +27,7 @@ website:
 
 format:
   html:
-    theme: theme.scss
+    theme: yeti
     toc: true
 
 editor: source

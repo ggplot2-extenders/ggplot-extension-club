@@ -16,6 +16,24 @@ in touch!
 
 Meetings:
 
+- 2026-10-13, William Gearty,
+  [{deeptime}](https://github.com/willgearty/deeptime) , epochs of time
+
+- 2026-10-07, João Pedro Fernandes Queiroz,
+  [{ggchemplot}](https://github.com/JPFQueiroz/ggchemplot) , molecular
+  structures with ggplot2
+
+- 2026-09-08, Kaitlin Henze, storytelling with data, STwD
+
+- 2026-09-02, Harriet Mason,
+  [{ggdibbler}](https://github.com/harriet-mason/ggdibbler)
+  [(recording)](https://www.youtube.com/watch?v=3zhUZEWDj4M&list=PLpUeWjs9wDGc4C_Db_u4T7g_rDmw9ZkXE&index=1&t=2786s),
+  uncertainty viz
+
+- 2026-08-19, Matthew Kling,
+  [{ggcube}](https://www.youtube.com/watch?v=k1_MHH51f5M&list=PLpUeWjs9wDGc4C_Db_u4T7g_rDmw9ZkXE&index=2)
+  [(recording)](https://www.youtube.com/watch?v=Vk8SgGn6W64), gg in 3d
+
 - 2026-06-30, Teun van den Brand and Mickaël Canouil, ggsql and
   gribouille [(recording)](https://www.youtube.com/watch?v=Vk8SgGn6W64),
   “ggsql and
@@ -156,6 +174,9 @@ Meetings:
 
 - 2023-01-28, Claus Wilke, [‘Fundamentals of Data
   Visualization’](https://github.com/clauswilke/dataviz) book project,
+  “Wilke’s
+
+- Fundamentals”
 
 - 2022-07-16, June Choe,
   [{ggtrace}](https://github.com/yjunechoe/ggtrace/),
@@ -169,7 +190,9 @@ Meetings:
 - 2022-04-09, David Sjoberg,
   [{ggbump}](https://github.com/davidsjoberg/ggbump),
 
-- 2022-03-19, First meeting,
+- 2022-03-19, First meeting, “First
+
+- meeting”
 
 ![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
